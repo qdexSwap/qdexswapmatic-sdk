@@ -1,6 +1,6 @@
 {
   "name": "qdexswapmaticsdk",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "🛠 An SDK for building applications on top of qdexswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -9,8 +9,8 @@
   ],
   "repository": "https://github.com/qdexSwap/qdexswapmatic-sdk.git",
   "keywords": [
-    "qdexswapeth",
-    "ethereum"
+    "qdexswap",
+    "Matic"
   ],
   "scripts": {
     "lint": "tsdx lint src test",
@@ -25,6 +25,7 @@
     "@ethersproject/providers": "^5.4.5",
     "@ethersproject/solidity": "^5.0.0",
     "decimal.js-light": "^2.5.1",
+    "graceful-fs": "^4.2.8",
     "jsbi": "^3.2.4",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
@@ -33,7 +34,8 @@
     "@qdexswap/contracts": "2.0.1",
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
-    "tsdx": "^0.14.1"
+    "tsdx": "^0.14.1",
+    "jsbi":"3.2.4"
   },
   "engines": {
     "node": ">=10"
