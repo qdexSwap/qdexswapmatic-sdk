@@ -1,6 +1,6 @@
 {
-  "name": "qdexswapmaticsdk",
-  "version": "1.0.8",
+  "name": "@qdexswap/maticsdk",
+  "version": "1.0.9",
   "description": "🛠 An SDK for building applications on top of qdexswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
